@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Enquiry Form</title>
+<style>
+body { font-family: Arial, sans-serif; padding: 30px; }
+form { max-width: 400px; }
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+button {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+</style>
+</head>
+<body>
+<h1>Enquiry Form</h1>
+<form action="submit_enquiry.php" method="post">
+    <input type="text" name="name" placeholder="Your Name" required/>
+    <input type="email" name="email" placeholder="Your Email" required/>
+    <textarea name="enquiry" placeholder="Your Enquiry"></textarea>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
