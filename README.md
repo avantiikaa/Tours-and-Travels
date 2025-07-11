@@ -44,10 +44,4 @@ This is a simple Tours and Travels web application with HTML/CSS frontend and PH
 - Contact Form
 - Static Pages (About Us, Terms, Privacy)
 
-## 🙏 Acknowledgements
 
-This project was created as part of an academic submission.
-
-## 📧 Support
-
-For any issues, please contact the developer.
